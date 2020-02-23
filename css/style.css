@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'DarkHeart Script';
+    src: url('fonts/DarkHeart-Script-PersonalUse.eot');
+    src: url('fonts/DarkHeart-Script-PersonalUse.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DarkHeart-Script-PersonalUse.woff2') format('woff2'),
+         url('fonts/DarkHeart-Script-PersonalUse.woff') format('woff'),
+         url('fonts/DarkHeart-Script-PersonalUse.ttf')  format('truetype'),
+         url('fonts/DarkHeart-Script-PersonalUse.svg#DarkHeart Script') format('svg');
+}
+body{
+  text-align: center;
+  margin: 0;
+  font-family: ,"Montserrat",sans-serif;
+  color: white;
+  line-height: 2;
+  overflow-x: hidden;
+}
+
+h1{
+  margin: 0;
+}
+
+h2{
+  margin: 0 0 0 12%;
+  padding-top: 2%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  font-size: 4rem;
+}
+
+h4 {
+  font-family: "Raleway",sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  margin: 4% 0 0 5%;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 300;
+}
+
+hr {
+  border-style: dotted;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-color: #382039;
+  border-width: 8px;
+  width: 6vw;
+  height: 10px;
+  margin: 0 auto;
+}
+
+ul li {
+  font-family: "Montserrat",sans-serif;
+}
+
+a {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 300;
+  color: white;
+
+}
+
+a:hover{
+  color: #787878;
+    text-decoration: none;
+}
+
+.top-container {
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(../resources/astronomy-dark-design-924824.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: "Raleway";
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-left: 2.7rem;
+
+}
+
+.brand-img {
+  height : 3rem;
+  width: auto;
+  position: relative;
+  bottom: 3px;
+  right: 7px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: "Raleway",sans-serif;
+    padding: 0 20px;
+    letter-spacing: 0.03rem;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+
+}
+
+
+.foreground {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: -3%;
+  left: 0;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.caption{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-80%);
+  width: 80%;
+}
+
+.explore{
+  color: white;
+  font-family: 'DarkHeart Script';
+  font-size: 30vh;
+  font-weight: normal;
+  margin: 0 ;
+
+}
+
+
+.middle-container {
+  padding-top: 5rem;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #000B18, #00172D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #200f21, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+
+}
+
+.sub-cont {
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.p-desc {
+  width: 55%;
+  margin: 3rem auto 3rem auto;
+  text-align: left;
+  font-weight: 200;
+}
+
+
+.bottom-container {
+  height: auto;
+  background: #0b0b0d;
+  padding: 5rem 0 7rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-brand {
+  color: #373737;
+}
+
+.footer-brand-img {
+  height: 3.3rem;
+  width: auto;
+}
+
+.footer-item {
+  text-align: left;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+ .extd {
+   padding-top: 2.6rem;
+ }
+
+.footer-item-heading {
+  color: #515151;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.icon {
+  font-size: 3rem;
+  padding: 0 16px;
+  color: #421f44;
+}
+
+.icon:hover {
+  color: #642f67;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: #393e46;
+
+}

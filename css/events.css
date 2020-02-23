@@ -1,0 +1,171 @@
+/* HTML TAGS ---------------------------------------------------------------- */
+
+body{
+  margin: 0;
+  font-family: "Montserrat",sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+}
+
+h4 {
+  font-family: "Montserrat",sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  margin: 4% 0 0 5%;
+  font-family: "Montserrat",sans-serif;
+}
+
+a {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 300;
+  color: white;
+
+}
+
+a:hover{
+  color: #787878;
+    text-decoration: none;
+}
+/* HEAD CONTAINER ----------------------------------------------------------- */
+
+.head-container {
+    height: 380px;
+    text-align: center;
+    overflow: hidden;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../resources/events.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: "Raleway";
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-left: 2.7rem;
+
+}
+
+.brand-img {
+  height : 3rem;
+  width: auto;
+  position: relative;
+  bottom: 3px;
+  right: 7px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: "Raleway",sans-serif;
+    padding: 0 20px;
+    text-align: left;
+    letter-spacing: 0.03rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+
+}
+
+.head-title {
+  color: white;
+  font-family: "Montserrat",sans-serif;
+  font-size: 4rem;
+  text-align: left;
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+
+/* EVENTS --------------------------------------------------------------------- */
+
+.event-container {
+  padding: 3rem 1rem;
+  height: auto;
+  background-color: #101010;
+  text-align: center;
+
+}
+
+.card {
+  background-color: #181818;
+  padding-top: 2rem;
+  color: #fff;
+  border-radius: 0;
+}
+
+.img-card{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+/* FOOTER-------------------------------------------------------------------- */
+.bottom-container {
+  height: auto;
+  background: #0b0b0d;
+  padding: 5rem 0 7rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-brand {
+  color: #373737;
+}
+
+.footer-brand-img {
+  height: 3.3rem;
+  width: auto;
+}
+
+.footer-item {
+  text-align: left;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+ .extd {
+   padding-top: 2.6rem;
+ }
+
+.footer-item-heading {
+  color: #515151;
+  font-size: 1rem;
+}
+
+.icon {
+  font-size: 3rem;
+  padding: 0 16px;
+  color: #242424;
+
+}
+
+.icon:hover {
+  color: #999999;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: #393e46;
+
+}
