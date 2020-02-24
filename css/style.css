@@ -137,14 +137,7 @@ a:hover{
   object-position: 50% 50%;
 }
 
-.caption{
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-80%);
-  width: 80%;
-}
+
 
 .explore{
   color: white;
@@ -152,6 +145,7 @@ a:hover{
   font-size: 30vh;
   font-weight: normal;
   margin: 0 ;
+  width: 100%;
 
 }
 
